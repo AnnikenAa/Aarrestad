@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background-color:white;
+    position: fixed;
+    z-index: 12; /*på hvilket nivå elementet står, elementet går over meny etter 12*/
+}
+
+nav{
+    width: 1200px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+.menu li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.menu li{
+    float:left;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.wrapp-poster{
+    width: 100%;
+    height: 628px;
+    background-image: url(bildernaa/IMG_7899.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: row;    
+}
+
+#hjem{
+    padding-left: 300px;
+    padding-top: 0px;
+    font-size: 50px;
+}
+
+#hjem, h1, h2{
+    font-family: "Sigmar One";
+    color:cadetblue;
+    font-stretch: semi-condensed;
+}
+
+#vaaride, #installasjon, #vedlikehold{
+    background-color: white;
+    width: 100%;
+    display: inline-block;
+}
+
+#vaaride img, #vedlikehold img{
+    width: 50%;
+    height: auto;
+    float:left;
+}
+
+#installasjon img,#kontaktoss img{
+    width: 50%;
+    height: auto;
+    float: right;
+}
+
+#vaaride div, #vedlikehold div{
+        width: 40%;
+        float:right;
+    padding-right: 50px;
+    padding-top: 80px;
+    text-align: justify;
+}
+
+#installasjon div{
+    width: 40%;
+    float: left;
+    padding-left: 50px;
+    padding-top: 80px;
+    text-align:justify;
+}
+
+#kontaktoss div{
+    width: 40%;
+    float: left;
+    padding-top: 100px;
+    text-align:center;
+}
